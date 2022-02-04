@@ -4,7 +4,7 @@ import React from 'react';
 const Todo = (props) => {
   return (
     <View style={[styles.item, { margin: 8, padding: 8 }]}>
-      <Text> {props.name} </Text>
+      <Text> {props.item} </Text>
     </View>
   );
 };
